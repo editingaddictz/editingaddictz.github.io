@@ -4,14 +4,21 @@
 	text-decoration: none;
 }
 
+body{
+	background: #F5F5F5;
+}
+
 .container{
-	background: white;
-	width: 90%;
+	background:;
+	width: 100% !important;
 	margin: 0px auto;
 }
 
 header{
+	/*background: url("https://images.unsplash.com/photo-1524169358666-79f22534bc6e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80");*/
 	background: black;
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 .head-img{
@@ -35,15 +42,14 @@ header{
 }
 
 .nav{
-	margin: 10px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
 	color: white;
-	float: right;
 }
 
 .nav li{
 	display: inline;
-	margin: 0px 10px 0px 10px;
-	padding: 10px;
+	margin: 0px 5px 0px 5px;
+	padding: 5px;
 	border: 2px solid white;
 	border-radius: 10px;
 }
@@ -54,10 +60,43 @@ header{
 	cursor: pointer;
 }
 
+.active{
+	background: white;
+	color: black;
+}
+
 section{
-	background: green;
+	width: 50%;
+	margin: 0px auto;
+}
+
+
+.main-section{
+	width: 70%;
+}
+
+.menu{
+	width: 30%;
+	height: 33px;
+	background: #5d5b5b;
+	border-radius: 0px 0px 0px 20px;
+}
+
+.card{
+	margin: 20px auto;
+	border: 1px solid lightgray;
+	border-radius: 20px;
+	width: 80%;
+}
+
+.iframe{
+	height: 350px;
 }
 
 footer{
 	background: yellow;
+}
+
+.card button{
+	
 }

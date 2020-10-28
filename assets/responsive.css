@@ -14,9 +14,30 @@
 		display: none;
 	}
 
+	.grayline, .menu{
+		display: none;
+	}
+
 	.banner{
 		width: 90%;
 		margin-top: 10px;
 		margin-left: 25px; 
 	}
+
+	section{
+		width: 100%;
+	}
+
+	.main-section{
+		width: 100%;
+	}
+
+	.card{
+		width: 95%;
+	}
+
+	.iframe{
+		height: 150px;
+	}
+
 }
