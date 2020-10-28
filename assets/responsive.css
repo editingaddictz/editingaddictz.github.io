@@ -1,0 +1,22 @@
+@media screen and (max-width: 1163px) {
+
+
+@media screen and (max-width: 890px) {
+	
+}
+
+@media screen and (max-width: 767px){
+	.nav{
+		display: none;
+	}
+
+	.head-br{
+		display: none;
+	}
+
+	.banner{
+		width: 90%;
+		margin-top: 10px;
+		margin-left: 25px; 
+	}
+}

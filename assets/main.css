@@ -4,10 +4,6 @@
 	text-decoration: none;
 }
 
-body{
-	background: black;
-}
-
 .container{
 	background: white;
 	width: 90%;
@@ -31,6 +27,7 @@ header{
 .banner{
 	width: 90%;
 	margin-top: -15px;
+	margin-left: 25px; 
 }
 
 .head-rest{
@@ -39,11 +36,22 @@ header{
 
 .nav{
 	margin: 10px 0px 0px 0px;
+	color: white;
+	float: right;
 }
 
 .nav li{
 	display: inline;
 	margin: 0px 10px 0px 10px;
+	padding: 10px;
+	border: 2px solid white;
+	border-radius: 20px;
+}
+
+.nav li:hover{
+	color: black;
+	background: white;
+	cursor: pointer;
 }
 
 section{
