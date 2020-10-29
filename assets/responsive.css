@@ -33,4 +33,8 @@
 		height: 200px;
 	}
 
+	.bottom-bar{
+		display: block;
+	}
+
 }
