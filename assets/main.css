@@ -17,8 +17,11 @@ body::-webkit-scrollbar-thumb {
   border: 3px solid lightgray !important;  /* creates padding around scroll thumb */
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
 body{
 	background: #F5F5F5;
+	font-family: 'Ubuntu', sans-serif;
 }
 
 .container{
