@@ -42,7 +42,6 @@
 		<div class="clr_b"></div>
 	</header>
 	<div class="container">
-		<div class="grayline" style="background: #5d5b5b; width: 100%; height: 10px;"></div>
 		<div class="main-section pull_l">
 			
 			<!--Post box start-->
@@ -99,16 +98,36 @@
 		</div>
 		<div class="clr_r"></div>
 
-		<center class="menu pull_l">
-			<ul class="nav">
-				<li class="active">Home</li>
-				<li>Tutorials</li>
-				<li>Downloads</li>
-				<li>About</li>
-			</ul>
-		</center>
+		<div class="menu pull_l" id="myMenu">
+			
+			<center class="nav-btns active"><a><i class="fas fa-home"></i> &nbsp; Home</a></center>
+			<center class="nav-btns"><a><i class="fas fa-video"></i> &nbsp; Tutorials</a></center>
+			<center class="nav-btns"><a><i class="fas fa-download"></i> &nbsp; Downloads</a></center>
+			<center class="nav-btns"><a><i class="fas fa-info"></i> &nbsp; About</a></center>
+
+		<div>
 		<div class="clr_b"></div>
 		
 	</div>
 </body>
 </html>
+
+<script type="text/javascript">
+	// When the user scrolls the page, execute myFunction
+	window.onscroll = function() {myFunction()};
+
+	// Get the menu
+	var menu = document.getElementById("myMenu");
+
+	// Get the offset position of the navbar
+	var sticky = menu.offsetTop;
+
+	// Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+	function myFunction() {
+	  if (window.pageYOffset > sticky) {
+	    menu.classList.add("sticky");
+	  } else {
+	    menu.classList.remove("sticky");
+	  }
+	}
+</script>

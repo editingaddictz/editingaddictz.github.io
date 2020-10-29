@@ -4,6 +4,19 @@
 	text-decoration: none;
 }
 
+body::-webkit-scrollbar {
+  width: 10px !important;               /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: lightgray !important;        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: black !important;    /* color of the scroll thumb */
+  border: 3px solid lightgray !important;  /* creates padding around scroll thumb */
+}
+
 body{
 	background: #F5F5F5;
 }
@@ -41,28 +54,24 @@ header{
 	width: 80%;
 }
 
-.nav{
-	margin: 0px 0px 0px 0px;
-	color: white;
+.nav-btns{
+	margin: 20px;
+	width: 80%;
+	height: 50px;
+	line-height: 50px;
+	transform: skew(20deg);
+	background: lightgray;
+	color: #555;
 }
 
-.nav li{
-	display: inline;
-	margin: 0px 5px 0px 5px;
-	padding: 5px;
-	border: 2px solid white;
-	border-radius: 10px;
-}
-
-.nav li:hover{
-	color: black;
-	background: white;
-	cursor: pointer;
+.nav-btns a{
+	display: block;
+	transform: skew(-20deg);
 }
 
 .active{
-	background: white;
-	color: black;
+	background: #555;
+	color: white;
 }
 
 section{
@@ -77,9 +86,7 @@ section{
 
 .menu{
 	width: 30%;
-	height: 33px;
-	background: #5d5b5b;
-	border-radius: 0px 0px 0px 20px;
+	border-radius: 0px 0px 0px 5px;
 }
 
 .card{
@@ -99,4 +106,22 @@ footer{
 
 .card button{
 	
+}
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  right:0;
+  width: 30%
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 102px;
 }
