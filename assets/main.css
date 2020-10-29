@@ -62,11 +62,17 @@ header{
 	transform: skew(20deg);
 	background: lightgray;
 	color: #555;
+	cursor: pointer;
 }
 
 .nav-btns a{
 	display: block;
 	transform: skew(-20deg);
+}
+
+.nav-btns:hover{
+	background: #555;
+	color: white;
 }
 
 .active{
@@ -124,4 +130,18 @@ footer{
 /* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
 .sticky + .content {
   padding-top: 102px;
+}
+
+.download-btn{
+	width: ;
+	height: 30px;
+	line-height: 30px;
+	border-radius: ;
+	background: lightgray;
+	color: #555;
+	cursor: pointer;
+}
+.download-btn:hover{
+	background: #555;
+	color: white;
 }
