@@ -3,7 +3,13 @@
 }
 
 @media screen and (max-width: 890px) {
-	
+	.bottom-bar{
+		display: block;
+	}
+
+	.menu{
+		display: none;
+	}
 }
 
 @media screen and (max-width: 767px){
