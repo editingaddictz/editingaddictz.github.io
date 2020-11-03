@@ -1,0 +1,184 @@
+@media screen and (max-width: 1163px) {
+
+
+	.half-fields{
+		width: 92%;
+	}
+
+	.stories-card{
+		width: 100%;
+		margin: 0px;
+		border-radius: 0px;
+	}
+
+}
+
+@media screen and (max-width: 890px) {
+	.container{
+		width: 95%;
+		border: 0px;
+	}
+
+	.container60{
+		width: 95%;
+		border: 0px;
+	}
+
+	.post-box{
+		width: 70%;
+	}
+
+	.loginform{
+		width: 50%;
+		margin: 0px auto 10px auto;
+		border: 0px;
+		border-radius: 0px 0px 10px 10px;
+	}
+
+	.stories-card{
+		width: 100%;
+		margin: 0px;
+		border-radius: 0px;
+	}
+}
+
+@media screen and (max-width: 767px){
+	.container{
+		width: 100%;
+		border: 0px;
+	}
+
+	.container60{
+		width: 100%;
+		border: 0px;
+	}
+
+	.nav1{
+		display: none;
+	}
+
+	.nav2{
+		position: fixed;
+		bottom: 0;
+		width: 100%;
+		padding: 12px 0px 7px 0px;
+		display: block;
+		word-wrap: break-word;
+	}
+
+	.aside30{
+		width:100%;
+	}
+
+	.section70{
+		width:100%;
+	}
+
+	.aside50{
+		width:100%;
+	}
+
+	.aside25{
+		width:100%;
+	}
+
+	.section50{
+		width:100%;
+	}
+
+	.post-box{
+		width: 95%;
+		border-radius: 0px;
+		/*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);*/
+		box-shadow: 0 0 0 0;
+		margin: 0px auto 10px auto;
+	}
+
+	.post-box-head{
+		border-bottom: 0px solid lightgray;
+		border-radius: 0px;
+	}
+
+	.card{
+		width: 95%;
+		border-radius: 5px;
+		/*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);*/
+		box-shadow: 0 0 0.5px 0;
+		margin: 10px auto;
+	}
+
+	.formob{
+		display: block;
+	}
+
+	.forpc{
+		display: none;
+	}
+
+	.post-box-img{
+		width: 100%;
+		border-radius: 0px;
+	}
+
+	.post-box-img img{
+		max-width: 100%;
+		max-height: auto;
+		border-radius: 0px;
+	}
+
+	.dp{
+		width: 30px;
+		height: 30px;
+	}
+
+	.saveform{
+		width: 92%;
+		margin: 0px auto 10px auto;
+		border: 0px;
+		border-radius:  0px 0px 10px 10px;
+	}
+
+	.half-fields{
+		width: 92%;
+	}
+
+	.loginform{
+		width: 92%;
+		margin: 0px auto 10px auto;
+		border: 0px;
+		border-radius: 0px 0px 10px 10px;
+	}
+
+	.stories-card{
+		width: 100%;
+		margin: 0px;
+		border-radius: 0px;
+        border: 0px;
+	}
+
+
+	.news70{
+		box-shadow: 0 0 0.5px 0;
+		border-radius: 0px;
+	}
+
+	.sc-contain{
+		width: 100%;
+	}
+
+	.slidecard{
+		margin: 10px;	
+	}
+
+	.indi-video{
+		max-width:100%; 
+		height:auto; 
+		border-radius:0px;
+		margin-top: 0px;
+	}
+
+	.minicard{
+		width: 95%;
+	}
+}
+
