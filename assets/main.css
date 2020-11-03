@@ -266,3 +266,19 @@ background:#fcfcfc;
    -moz-transition: cubic-bezier(0,1.95,.49,.73) .4s ;
       transition: cubic-bezier(0,1.95,.49,.73) .4s ;
 }
+
+.hero img{
+	width: 70%;
+	margin: 20px auto;
+}
+
+.hero .text{
+	width: 100%;
+	margin: 20px auto;
+}
+
+.hero button{
+	padding: 10px;
+	color: white;
+	background: rgb(0, 134, 0);
+}
