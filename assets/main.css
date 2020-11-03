@@ -20,7 +20,7 @@ body::-webkit-scrollbar-thumb {
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
 
 body{
-	background: #F5F5F5;
+	background: white !important;
 	font-family: 'Ubuntu', sans-serif;
 }
 
