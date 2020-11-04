@@ -10,6 +10,10 @@
 		display: block;
 	}
 
+	.container{
+		width: 100% !important;
+	}
+
 	.menu{
 		display: none;
 	}
@@ -24,7 +28,7 @@
 	}
 }
 
-@media screen and (max-width: 767px){
+@media screen and (max-width: 500px){
 	.nav, .grayline, .menu, .head-br{
 		display: none;
 	}
